@@ -1,39 +1,79 @@
 hi 
 I' m rufus
 """lists"""
-lis3=[]      ''' lists '''
+lis3=[]      
 lis3.append("polo")
 lis3.append("football")
 lis3.append("hockey")
 lis3.append("basketball")
 lis3.append("Tensis")
 print(lis3)
+o/p:
+['polo', 'football', 'hockey', 'basketball', 'Tensis']
+
 x ="hockey"
 if x  in lis3:
     print("Y")
 else :
-    print("no")                #looping
+    print("no")  #looping
+o/p: Y
+
 print(lis3[0])
 print(lis3[1])
 print(lis3[3])                  #accesing
+o/p:
+polo
+football
+basketball
 list1=[]
 list1.append(lis3)
 print(list1)
+o/p: [['polo', 'football', 'hockey', 'basketball', 'Tensis']]
+
 list_new=["Cr7","Lisandro","Rashford","Mctommy","Fred","David ge da","Shaw"]
 print(list_new[0:7:2])
 print(list_new[-7:])
 print(list_new[-7:-1:3])          #slcing
 del list_new[-1] #delection
 print(list_new)
+o/p:
+'Cr7', 'Rashford', 'Fred', 'Shaw']
+['Cr7', 'Lisandro', 'Rashford', 'Mctommy', 'Fred', 'David ge da', 'Shaw']
+['Cr7', 'Mctommy']
+['Cr7', 'Lisandro', 'Rashford', 'Mctommy', 'Fred', 'David ge da']
+
 list_new.remove(list_new[1])      #remove
 print(list_new)
+o/p: ['Cr7', 'Rashford', 'Mctommy', 'Fred', 'David ge da']
+
 list_ajax=["Dalot","Anthony","Eriksen"]
 list_new.extend(list_ajax)
 print(list_new) #extend
+o/p; ['Cr7', 'Rashford', 'Mctommy', 'Fred', 'David ge da', 'Dalot', 'Anthony', 'Eriksen']
 list_new.sort()
 print(list_new)
+o/p: ['Anthony', 'Cr7', 'Dalot', 'David ge da', 'Eriksen', 'Fred', 'Mctommy', 'Rashford']
+
 list_new.pop()
 print(list_new) #pop
+o/p: ['Anthony', 'Cr7', 'Dalot', 'David ge da', 'Eriksen', 'Fred', 'Mctommy']
+
+Tuples:
+tup1=('leo',"lewis","marco")
+tup2=(0,1,2)
+tup3=(tup1,tup2)
+print(tup3)
+o/p: (('leo', 'lewis', 'marco'), (0, 1, 2)
+print(tup1[1:]) #acessing
+0/p: ('lewis', 'marco')
+tup4 =('kobe')
+for i in tup4:
+    print(i)
+o/p:
+k
+o
+b
+e
 
 
 
